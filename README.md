@@ -21,7 +21,7 @@ $ git clone https://github.com/Fraunhofer-SCAI/mrDMD-damage-detection.git
 ### Including wind turbulence
 The workflow allows for the inclusion of wind turbulence into the generation of the signals. To include wind turbulence one needs the shaft torque signal of a gearbox system under the influence of wind turbulence. Such torque signal can be simulated using the FAST code [3], as done in [2].
 
-### Example Date
+### Example Data
 The simulated data with and without wind turbulence as used in ["Multi-resolution Dynamic Mode Decomposition for Damage Detection in Wind Turbine Gearboxes"](https://arxiv.org/abs/2110.04103) is available at 
 [https://fordatis.fraunhofer.de/handle/fordatis/262](https://fordatis.fraunhofer.de/handle/fordatis/262).
 
