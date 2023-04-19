@@ -1,5 +1,5 @@
 # mrDMD-damage-detection
-Workflow for simulating sensor signals to investigate methods for damage detection in a wind turbine gearbox. This workflow is described and implemented in ["Multi-resolution Dynamic Mode Decomposition for Damage Detection in Wind Turbine Gearboxes"](https://arxiv.org/abs/2110.04103), where it is used for analysing several damage detection methods. For additional details on the mechinal engineering settings of the workflow see [1] and [2].
+Workflow for simulating sensor signals to investigate methods for damage detection in a wind turbine gearbox. This workflow is described and implemented in ["Multi-resolution Dynamic Mode Decomposition for Damage Detection in Wind Turbine Gearboxes"](https://doi.org/10.1017/dce.2022.34), where it is used for analysing several damage detection methods. For additional details on the mechinal engineering settings of the workflow see [1] and [2].
 
 
 ### Download
@@ -22,7 +22,7 @@ $ git clone https://github.com/Fraunhofer-SCAI/mrDMD-damage-detection.git
 The workflow allows for the inclusion of wind turbulence into the generation of the signals. To include wind turbulence one needs the shaft torque signal of a gearbox system under the influence of wind turbulence. Such torque signal can be simulated using the FAST code [3], as done in [2,4].
 
 ### Example Data
-The simulated data with and without wind turbulence as used in ["Multi-resolution Dynamic Mode Decomposition for Damage Detection in Wind Turbine Gearboxes"](https://arxiv.org/abs/2110.04103) is available at 
+The simulated data with and without wind turbulence as used in ["Multi-resolution Dynamic Mode Decomposition for Damage Detection in Wind Turbine Gearboxes"](https://doi.org/10.1017/dce.2022.34) is available at 
 [https://fordatis.fraunhofer.de/handle/fordatis/262](https://fordatis.fraunhofer.de/handle/fordatis/262).
 
 ### Contact 
@@ -38,8 +38,7 @@ The simulated data with and without wind turbulence as used in ["Multi-resolutio
 
 [3] Jonkman, J.M., Buhl Jr., M.L. (2005). FAST User's Guide. NREL/EL-500-29798. Golden, CO: National Renewable Energy Laboratory
 
-[4] Climaco, P., Garcke, J. and Iza-Teran, R. (2022). Multi-resolution Dynamic Mode Decomposition for damage detection in wind turbine gearboxes. Data-Centric Engineering. accepted. A preprint is available at https://arxiv.org/abs/2110.04103.
-
+[4] Climaco, P., Garcke, J., & Iza-Teran, R. (2023). Multi-resolution dynamic mode decomposition for damage detection in wind turbine gearboxes. Data-Centric Engineering, 4, E1. doi:10.1017/dce.2022.34
 
 
 ### Funding
